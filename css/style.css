@@ -1,0 +1,70 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:Arial, sans-serif;
+}
+.parent-container{
+    background:#DDD;
+    width:500px;
+    margin:40px auto;
+    border-radius:4px;
+    min-height:100px;
+    overflow:hidden;
+}
+.parent-container .header-container{
+    display:flex;
+    justify-content:space-around;
+    background:#9a0202;
+    padding:7px;
+    width:100%;
+}
+.parent-container .header-container .header{
+    text-transform:capitalize;
+    font-family:Arial, sans-serif;
+    font-weight:bold;
+    font-size:20px;
+    color:#EEE;
+    padding-top: 4px;;
+}
+.parent-container .header-container input[type="text"]{
+    padding:5px;
+    border:0px;
+    border-radius:4px;
+    outline:none;
+    text-transform:capitalize;
+}
+.parent-container .header-container input[type="text"]::placeholder{
+    text-transform:capitalize;
+}
+.parent-container .header-container .create-btn{
+    text-transform:uppercase;
+    color:#FFF;
+    background:#222;
+    border-radius:4px;
+    border:0px;
+    cursor:pointer;
+    padding:5px 10px;
+    font-size:20px;
+}
+.parent-container .tasks-div > div{
+    background:#FFF;
+    border-radius:3px;
+    margin:10px;
+    padding:10px;
+    display:flex;
+    justify-content:space-between;
+}
+.parent-container .tasks-div div span{
+    color:#333;
+    text-transform:capitalize;
+    font-weight:bold;
+}
+.parent-container .tasks-div div button{
+    background:#A00;
+    padding:4px 10px;
+    color:#FFF;
+    border-radius:3px;
+    border:0px;
+    cursor:pointer;
+    text-transform:uppercase;
+}
